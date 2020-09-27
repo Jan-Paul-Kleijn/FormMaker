@@ -1,0 +1,91 @@
+.entry-content .vleessoort {
+  position: relative;
+  padding: 0.8rem 130px 0 1rem;
+  margin: 0 1rem;
+  background-size: auto 90%;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 1rem);
+  background-blend-mode: soft-light;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  cursor: pointer;
+  overflow: hidden;
+  min-height: 5rem;
+}
+.entry-content .vleessoort .vleessoort-extended {
+  display: block;
+  line-height: 1rem;
+  font-size: 0.8rem;
+  margin: 0rem 0 1rem 0;
+  position: relative;
+  font-weight: 300;
+  font-style: italic;
+}
+@media only screen and (min-width: 590px) {
+  .entry-content .vleessoort {
+    font-size: 2.4rem;
+  }
+  .entry-content .vleessoort .vleessoort-extended {
+    font-size: 1.2rem;
+  }
+}
+.vleessoort.rundvlees {
+  background-color: rgb(160, 0, 0);
+}
+.vleessoort.lamsvlees {
+  background-color: rgb(255, 160, 122);
+}
+.vleessoort.kalfsvlees {
+  background-color: rgb(240, 128, 128);
+}
+.vleessoort.kipkalkoen {
+  background-color: rgb(255, 165, 0);
+}
+.vleessoort.vlugklaar {
+  background-color: rgb(184, 134, 11);
+}
+.vleessoort.compleet {
+  background-color: rgb(85, 107, 47);
+}
+.vleessoort.rundvlees, #rundvlees_aanbod .thumb-wrap {
+  background-image: url('https://web3.werkzien.nl/wp-content/themes/twentytwenty/formMaker/images/custom/rundvlees.png');
+}
+.vleessoort.lamsvlees, #lamsvlees_aanbod .thumb-wrap {
+  background-image: url('https://web3.werkzien.nl/wp-content/themes/twentytwenty/formMaker/images/custom/lamsvlees.png');
+}
+.vleessoort.kalfsvlees, #kalfsvlees_aanbod .thumb-wrap {
+  background-image: url('https://web3.werkzien.nl/wp-content/themes/twentytwenty/formMaker/images/custom/kalfsvlees.png');
+}
+.vleessoort.kipkalkoen, #kipkalkoen_aanbod .thumb-wrap {
+  background-image: url('https://web3.werkzien.nl/wp-content/themes/twentytwenty/formMaker/images/custom/kipkalkoen.png');
+}
+.vleessoort.vlugklaar, #vlugklaar_aanbod .thumb-wrap {
+  background-image: url('https://web3.werkzien.nl/wp-content/themes/twentytwenty/formMaker/images/custom/vlugklaar.png');
+}
+.vleessoort.compleet, #compleet_aanbod .thumb-wrap {
+  background-image: url('https://web3.werkzien.nl/wp-content/themes/twentytwenty/formMaker/images/custom/compleet.png');
+}
+
+.togglee + h3 {
+  margin-top: .5rem;
+}
+
+table.complete-delen td {
+  border-color: #eee;
+  word-break: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+table.complete-delen th {
+  border-color: #222;
+  background-color: #222;
+  color: #fff;
+}
+table.complete-delen td:last-child {
+  text-align: right;
+  min-width: 8rem;
+}
+table.complete-delen td:first-child {
+  min-width: 9rem;
+}
