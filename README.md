@@ -4,12 +4,12 @@ Creating beautiful, active forms in WordPress made easy. This form includes on-t
 ## How to
 This package is quite easy to use if you know only a little bit of PHP, HTML and CSS. Very nice, how to go about it then?
 
-* Create a directory called 'FormMaker' in the root directory of the theme of your WordPress installation. The name of the directory can be anything you like but for the sake of this How-to I will use this specific name.
+* Create a directory called `'FormMaker'` in the root directory of the theme of your WordPress installation. The name of the directory can be anything you like but for the sake of this How-to I will use this specific name.
 * Copy all contents of FormMaker to this directory.
-* Create your form in FormMaker/inc/the-form.php
-* Create the thank you page in FormMaker/inc/thank-you.php
-* Create the epilogue page in FormMaker/inc/epilogue.php
-* Select this template in the WordPress page you would like to see this form on. You can do this at: page settings -> page attributes -> select template
+* Create your form in `FormMaker/inc/the-form.php`.
+* Create the thank you page in `FormMaker/inc/thank-you.php`.
+* Create the epilogue page in `FormMaker/inc/epilogue.php`.
+* Select this template in the WordPress page you would like to see this form on. You can do this at: `page settings -> page attributes -> select template`.
 * Voila, you now have a dynamic form with on-the-fly pricing and all bells and whistles on it.
 
 ## Create formMaker form inputs
@@ -28,7 +28,7 @@ The element that is used for the user input. This can be any of the predefined H
 ### Input contents (array)
 An array of key->value pairs which all information about this user input element. The value is always written in lower case.
 Possible keys are:
-```php
+```
 - key: Used for 'name' and 'id' attribute of the <INPUT> element. Also used for the 'for' attribute in the <LABEL> element.
        This is a required input. (string)
 - type: Used for the input 'type' attribute. This key->value pair is only mandatory for use with <INPUT> elements.
