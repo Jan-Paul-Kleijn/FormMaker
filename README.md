@@ -18,14 +18,14 @@ Form inputs are made based on the information that is given to the create_form_i
     class form_maker
       -> create_form_input([input element](string), [input contents](array))
 
-###Input element (string)
+### Input element (string)
 The element that is used for the user input. This can be any of the predefined HTML element names, which are:
 * input
 * textarea
 * select
 * mathcaptcha
 
-###Input contents (array)
+### Input contents (array)
 An array of key->value pairs which all information about this user input element. The value is always written in lower case.
 Possible keys are:
 ```
@@ -89,14 +89,14 @@ Possible keys are:
                        Defaults to ['plain']. (string)
 ```
 
-###Added functionality: Toggling elements
+### Added functionality: Toggling elements
 
 It is possible to create a more streamlined form by hiding input elements until they become relevant to the user. Use the [mod] attribute to define the element that needs to be toggled.
 It is also possible to use this toggling functionality manually by using the 'data-toggle' attribute and give it the value of the element ID that you would like to see toggled. In turn, the element
 that is toggled needs to be given the CSS-class 'togglee'. This makes sure the default display state of the toggled element is 'hidden'.
 
 
-###The mathcaptcha
+### The mathcaptcha
 A mathcaptcha input can be easily added, an example:
 ```
    $form->create_form_input("mathcaptcha", array(
