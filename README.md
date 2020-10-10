@@ -3,7 +3,7 @@ Creating beautiful, active forms in WordPress made easy. This form includes on-t
 
 ## How to
 This package is quite easy to use if you know only a little bit of PHP, HTML and CSS. 
-All good and well but how do I go about it then? Let me guide you.
+How do you go about it then? Let me guide you.
 
 * Create a directory called `'FormMaker'` in the root directory of the theme of your WordPress installation. The name of the directory can be anything you like but for the sake of this How-to I will use this specific name.
 * Copy all contents of FormMaker to this directory.
